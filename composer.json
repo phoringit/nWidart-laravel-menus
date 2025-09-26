@@ -1,4 +1,3 @@
-
 {
   "name": "nwidart/laravel-menus",
   "description": "Laravel Menu management",
@@ -10,6 +9,12 @@
     "bootstrap"
   ],
   "license": "MIT",
+    "repositories": [
+        {
+            "url": "https://github.com/banxa-global/laravelcollective-html",
+            "type": "git"
+        }
+    ],
   "authors": [
     {
       "name": "Nicolas Widart",
@@ -21,11 +26,17 @@
     }
   ],
   "require": {
-    "php": ">=7.3",
-    "illuminate/support": "^8.0"
+    "php": "^8.0|^8.1|^8.2",
+    "illuminate/support": "^9.44|^10.0|^11.0",
+    "illuminate/config": "^9.44|^10.0|^11.0",
+    "illuminate/view": "^9.44|^10.0|^11.0",
+    "laravelcollective/html": "dev-laravel11-upgrade"
   },
   "require-dev": {
-    "phpunit/phpunit": "^8.5",
+    "phpunit/phpunit": "~9.5|~10.0",
+    "mockery/mockery": "~1.5",
+    "orchestra/testbench": "~7.16",
+    "friendsofphp/php-cs-fixer": "^3.13"
   },
   "autoload": {
     "psr-4": {

@@ -78,7 +78,10 @@ class MenusServiceProvider extends ServiceProvider
         $configPath = __DIR__ . '/../config/config.php';
         $viewsPath = __DIR__ . '/../views';
         $this->mergeConfigFrom($configPath, 'menus');
-        $this->loadViewsFrom($viewsPath, 'menus');
+        $this->loadViewsFrom([
+            base_path('resources/views/vendor/nwidart/menus'),
+            $viewsPath,
+        ], 'menus');
 
         $this->publishes([
             $configPath => config_path('menus.php'),
