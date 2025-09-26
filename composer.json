@@ -11,9 +11,14 @@
   "license": "MIT",
     "repositories": [
         {
-            "url": "https://github.com/phoringit/laravelcollective-html/",
+            "url": "https://github.com/phoringit/laravelcollective-html",
             "type": "git"
         }
+        {
+            "url": "https://github.com/phoringit/laravelcollective-html",
+            "type": "git"
+        }		
+		
     ],
   "authors": [
     {
@@ -30,7 +35,7 @@
     "illuminate/support": "^9.44|^10.0|^11.0",
     "illuminate/config": "^9.44|^10.0|^11.0",
     "illuminate/view": "^9.44|^10.0|^11.0",
-    "laravelcollective/html": "^7.0"
+    "laravelcollective/html": "^6.4|6.x-dev|7.0"
   },
   "require-dev": {
     "phpunit/phpunit": "~9.5|~10.0|~11.0",
