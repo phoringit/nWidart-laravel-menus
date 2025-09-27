@@ -13,12 +13,7 @@
         {
             "url": "https://github.com/phoringit/laravelcollective-html",
             "type": "git"
-        }
-        {
-            "url": "https://github.com/phoringit/laravelcollective-html",
-            "type": "git"
-        }		
-		
+        }	
     ],
   "authors": [
     {
